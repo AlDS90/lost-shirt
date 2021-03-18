@@ -227,16 +227,19 @@ ul > li {
 .lined-text--no-indent .lined-text__word {
     margin-left: 0;
 }
-.filter {
+.filter,
+.tabs {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
 }
-.filter__item {
+.filter__item,
+.tabs__item {
     margin-right: 40px;
 }
-.filter__link {
+.filter__link,
+.tab__link {
     font-family: var(--titlesFont);
     text-transform: uppercase;
     padding: 3px 21px;
@@ -252,12 +255,17 @@ ul > li {
 .filter__link:hover {
     color: var(--red);
 }
-.filter__item--active .filter__link {
+.filter__item--active .filter__link,
+.tabs__item--active .tab__link{
     color: var(--yellow);
     background: var(--black);
 }
-.products {
+.products,
+.description {
     margin-bottom: 160px;
+}
+.description .container {
+    width: 1105px;
 }
 .products__list {
     display: flex;

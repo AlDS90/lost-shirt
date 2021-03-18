@@ -6,7 +6,7 @@
     });
 
     const controlls = document.querySelectorAll('.filter__link');
-    const active_class = 'filter__item--active'
+    const active_class = 'filter__item--active';
 
 
     controlls.forEach(function(control) {
