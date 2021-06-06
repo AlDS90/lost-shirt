@@ -289,7 +289,6 @@ ul > li {
     border-left: 5px solid transparent;
     border-right: 2px solid transparent;
     transform: rotate(-181deg);
-
 }
 .products__price-amount {
     font-size: 30px;
